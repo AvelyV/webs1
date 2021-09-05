@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Geo', sans-serif;;
+    scroll-behavior: smooth;
+    color: white;
+}
+body {
+	text-align: center;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #000000;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	line-height: 100px;
+}
+.logo a {
+    margin: auto 20px;
+}
+
+.logo a img {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+.p1 {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url(../img/john.jpg);
+	background-size: cover;
+	background-position: top;
+}
+.p1 h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #000;
+
+}
+.content-area h2 {
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;;
+	line-height: 30px;
+}
+
+.p2, .p3{
+    background-image: url(../img/john.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3 {
+    background-position: bottom;
+}
+
+/* why not working???? */
+#about, #contact {
+    max-width: 1024px;
+    margin: auto;
+}
+
+footer {
+    margin: auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: flex-end;
+}
